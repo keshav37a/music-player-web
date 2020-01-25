@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Music Playa</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <header id="body-header" class="mleft3vw mright3vw">
+        <div id="top-row-container" class="flex-rw spc-evn">
+            <div id="name-icon-container">
+                <img class="app-icon" src="Images/music-app-icon.svg">
+                <div class="flex-col spc-btw inlBlck">
+                    <div class="ff">Ninja</div>
+                    <div class="ff fw-600">Studio</div>
+                </div>
+
+            </div>
+
+            <div>
+                <span id="fav-spn" class="ff fw-600 mleft3vw">Favourites</span>
+            </div>
+
+
+            <div id="search-bar-container" class="flex-rw spc-btw mleft3vw">
+                <!-- <img class="icn3vh icn-black" src="Images/search.svg"> -->
+                <input id="search-bar-id" type="text" placeholder="Search">
+            </div>
+
+            <div>
+                <a href="#body-header"><img class="icn4vh icn-black mleft3vw" src="Images/bell.svg"></a>
+
+            </div>
+
+            <div>
+                <a href="body-header"><img class="profile-img mleft3vw" src="Images/profile.jpg"></a>
+            </div>
+
+        </div>
+        <!-- logo name favourites searchbar(including search icon and voice icon) notification icon with red dot profileIcon   -->
+
+    </header>
+    <main id="main-class" class="mleft3vw mright3vw">
+
+        <!-- <section id="carousel-section">
+
+        </section> -->
+        <!-- Carousel -->
+        <div id="col1" class="mleft3vw mright3vw mtop10vh flex-col spc-btw">
+            <div class="carousel">
+                <button class="carousel-button carousel-button-left">
+                    <img class="carousel-button-icon" src="images/back.svg">
+                </button>
+                <div class="carousel-track-container">
+                    <ul class="carousel-track">
+                        <li class="carousel-slide current-slide">
+                            <img class="carousel-image " src="Images/carousel-images/carousel-1.jpg">
+                        </li>
+                        <li class="carousel-slide">
+                            <img class="carousel-image" src="Images/carousel-images/carousel-2.jpg">
+                        </li>
+                        <li class="carousel-slide">
+                            <img class="carousel-image" src="Images/carousel-images/carousel-3.jpg">
+                        </li>
+                        <li class="carousel-slide">
+                            <img class="carousel-image" src="Images/carousel-images/carousel-4.jpg">
+                        </li>
+                        <li class="carousel-slide">
+                            <img class="carousel-image" src="Images/carousel-images/carousel-5.jpg">
+                        </li>
+                    </ul>
+                </div>
+                <button class="carousel-button carousel-button-right">
+                    <img class="carousel-button-icon " src="images/next.svg">
+                </button>
+
+                <div class="carousel-nav mtop3vh">
+                    <div class="carousel-indicator current-slide"></div>
+                    <div class="carousel-indicator"></div>
+                    <div class="carousel-indicator"></div>
+                    <div class="carousel-indicator"></div>
+                    <div class="carousel-indicator"></div>
+                </div>
+            </div>
+            <!-- Carousel Ends-->
+
+            <!-- Latest Releases -->
+            <section id="latest-release-container">
+                <div class="ff fw-600 mbot3vh">Latest Releases</div>
+                <div id="flex-area-for-singles" class="flex-rw wrap ff fw-600">
+                    <div class="latest-release-single flex-rw start mbot3vh">
+                        <img class="latest-release-album-img" src="Images/latest-releases/release-1-nirvana.jpg">
+                        <div class="single-release-info">
+                            <div class="single-title">The Man Who Sold The World</div>
+                            <div class="single-release-date">August 11 1994</div>
+                        </div>
+                        <div class="track-duration">
+                            <img class="single-options" src="Images/open-menu.svg">
+                            <div>6:35</div>
+                        </div>
+                    </div>
+                    
+                    <div class="latest-release-single flex-rw start mbot3vh">
+                        <img class="latest-release-album-img" src="Images/latest-releases/release-2-iron-maiden.jpg">
+                        <div>
+                            <div class="single-title">Hallowed Be Thy Name</div>
+                            <div class="single-release-date">September 12 1982</div>
+                        </div>
+                        <div class="track-duration">
+                            <img class="single-options" src="Images/open-menu.svg">
+                            <div>6:35</div>
+                        </div>
+
+                    </div>
+                    
+                    <div class="latest-release-single flex-rw start mbot3vh">
+                        <img class="latest-release-album-img" src="Images/latest-releases/release-3-metallica.jpg">
+                        <div>
+                            <div class="single-title">Turn The Page</div>
+                            <div class="single-release-date">October 13 1998</div>
+                        </div>
+                        <div class="single-options-container">
+                            
+                        </div>
+                        <div class="track-duration">
+                            <img class="single-options" src="Images/open-menu.svg">
+                            <div>6:35</div>
+                        </div>
+
+                    </div>
+                    
+                    <div class="latest-release-single flex-rw start mbot3vh">
+                        <img class="latest-release-album-img" src="Images/latest-releases/release-4-ac-dc.jpg">
+                        <div>
+                            <div class="single-title">Highway To Hell</div>
+                            <div class="single-release-date">1978</div>
+                        </div>
+                        <div class="track-duration">
+                            <img class="single-options" src="Images/open-menu.svg">
+                            <div>6:35</div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </section>
+            <!-- Latest Releases -->
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <!-- horizontal flex container{
+            vertical flex container{
+                carousel
+                latest releases
+                popular artists
+                stations
+                genres
+                latest english
+                latest hindi
+            }
+            Queue Songs
+            Music Player
+        } -->
+
+
+    </main>
+    <script src="js/carousel.js"></script>
+</body>
+
+</html>
