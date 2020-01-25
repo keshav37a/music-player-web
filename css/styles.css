@@ -172,19 +172,19 @@ section{
 
 
 .single-title{
-    font-size: 1vw;
-    margin-left: 1vw;
+    font-size: 0.8rem;
+    margin-left: 0.8rem;
 }
 
 .single-release-date{
-    font-size: 1vw;
+    font-size: 0.8rem;
     font-weight: 400;
-    margin-left: 1vw;
+    margin-left: 0.8rem;
 }
 
 .track-duration{
     margin-left: auto;
-    font-size: 1vw;
+    font-size: 0.8rem;
 }
 
 .single-options-container{
@@ -212,7 +212,7 @@ section{
     width: 7vw;
 }
 .popular-artist-name{
-    font-size: 1vw;
+    font-size: 0.8rem;
 }
 /* popular artists section ends */
 
@@ -245,14 +245,76 @@ section{
 }
 
 /* Radio Section Ends */
+
+/* Occasion section begins */
+
 .occasion-image{
     height: 10vw;
     width: 17vw;
 }
 
+/* Occasion Section ends */
+
+/* Latest English Section Begins */
+
+/* Latest English Section Ends */
 
 /* column1 ends */
 
+/* column2 starts */
+#col2{
+    width: 40%;
+}
+
+.queue-header{
+    width: auto;
+}
+
+.queue-heading{
+    margin-bottom: 5vh;
+}
+.queue-title{
+    font-size: 1.2rem;
+}
+
+.queue-item{
+    margin-bottom: 3vh;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+
+.s-no{
+    font-size: 0.8rem;
+}
+
+.queue-option-title{
+    font-size: 0.7rem;
+}
+.singer-name{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.song-title{
+    font-size: 0.85rem;
+}
+.options-icon{
+    position: relative;
+    top: 20%;
+    width: 1vw;
+}
+.queue-song-image{
+    height: 3vw;
+    width: 3vw;
+    margin-left: 1vw;
+}
+.queue-song-info{
+    margin-left: 1vw;
+    width: 100%;
+}
+.queue-like-icon{
+    width: 1.5vw;
+}
+/* column2 ends */
 
 /* general */
 .flex-rw{
@@ -265,8 +327,16 @@ section{
     flex-direction: column;
 }
 
+.flex-bas-0{
+    flex-basis: 0;
+}
+
 .txt-center{
     text-align: center;
+}
+
+.txt-left{
+    text-align:left;
 }
 
 .center{
@@ -286,11 +356,15 @@ section{
 }
 
 .start{
-    justify-content: start;
+    justify-content: flex-start;
 }
 
 .left{
     justify-content: left;
+}
+
+.end{
+    justify-content: flex-end;
 }
 
 .wrap{
@@ -301,6 +375,9 @@ section{
 }
 .fw-600{
     font-weight: 600;
+}
+.fw-400{
+    font-weight: 400;
 }
 .ff{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -338,6 +415,11 @@ section{
 .brad5{
     border-radius: 50%;
 }
-
+.mar0{
+    margin: 0;
+}
+.mar-right-auto{
+    margin-right: auto;
+}
 /* general ends */
 
