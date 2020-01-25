@@ -3,7 +3,7 @@ body{
     background: linear-gradient(to right, #556270, #ff6b6b);
 }
 section{
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 /* body ends */
 
@@ -62,7 +62,7 @@ section{
 /* carousel div */
 .carousel{
     position: relative;
-    height: 50vh;
+    height: 45vh;
     width: 95%;
 }
 
@@ -172,19 +172,19 @@ section{
 
 
 .single-title{
-    font-size: 0.8rem;
+    font-size: 1vw;
     margin-left: 1vw;
 }
 
 .single-release-date{
-    font-size: 0.8rem;
+    font-size: 1vw;
     font-weight: 400;
     margin-left: 1vw;
 }
 
 .track-duration{
     margin-left: auto;
-    font-size: 0.8rem;
+    font-size: 1vw;
 }
 
 .single-options-container{
@@ -195,6 +195,61 @@ section{
     width: 1.5vw;
 }
 /* latest release section ends */
+
+/* popular artists section begins */
+
+/* #popular-artists-container{
+    min-width: 7vw;
+}
+
+.popular-artist-container{
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+}  */
+
+.popular-artist-image{
+    height: 7vw;
+    width: 7vw;
+}
+.popular-artist-name{
+    font-size: 1vw;
+}
+/* popular artists section ends */
+
+/* Radio Section Begins */
+
+#stations-section{
+    background: linear-gradient(to right, #556270, #ff6b6b);
+}
+
+#stations-container{
+    margin-top: 2vh;
+    margin-left:1vw;
+    margin-right:1vw;
+}
+
+.radio-image{
+    height: 5vw;
+    width: 5vw;
+}
+
+.station-container:hover img{
+    height: 6vw;
+    width: 6vw;
+    box-shadow: 0px 0px 6px 4px grey ;
+}
+
+.radio-station-genre{
+    position: relative;
+    bottom: 50%;
+}
+
+/* Radio Section Ends */
+.occasion-image{
+    height: 10vw;
+    width: 17vw;
+}
+
 
 /* column1 ends */
 
@@ -210,12 +265,24 @@ section{
     flex-direction: column;
 }
 
+.txt-center{
+    text-align: center;
+}
+
+.center{
+    justify-content: center;
+}
+
 .spc-even{
     justify-content: space-evenly;
 }
 
 .spc-btw{
     justify-content: space-between;
+}
+
+.spc-ar{
+    justify-content: space-around;
 }
 
 .start{
@@ -262,5 +329,15 @@ section{
 .mbot3vh{
     margin-bottom: 3vh;
 }
+.opac{
+    opacity: 0.7;
+}
+.brdrad1{
+    border-radius: 0%;
+}
+.brad5{
+    border-radius: 50%;
+}
+
 /* general ends */
 
