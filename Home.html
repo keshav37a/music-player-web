@@ -44,7 +44,7 @@
         <!-- logo name favourites searchbar(including search icon and voice icon) notification icon with red dot profileIcon   -->
 
     </header>
-    <main id="main-class" class="mright3vw">
+    <main id="main-class">
 
         <div id="columns-container" class="mleft3vw mright3vw flex-rw start">
             <!-- col1 starts -->
@@ -91,34 +91,93 @@
                 <section id="latest-release-section">
                     <div class="ff fw-600 mbot3vh">Latest Releases</div>
                     <div id="flex-area-for-singles" class="flex-rw wrap ff fw-600">
-                        <div class="latest-release-single flex-rw start mbot3vh">
-                            <img class="latest-release-album-img" src="Images/latest-releases/release-1-nirvana.jpg">
+                        <div class="latest-release-single flex-rw start mbot3vh" click="openPlayerOnClick()">
+                            <div class="latest-release-album-img-div">
+                                <img class="latest-release-album-img"
+                                    src="Images/latest-releases/release-1-nirvana.jpg">
+                                <!-- <img src="Images/play.svg" class="play-pause-toggle hidden"> -->
+                            </div>
+
                             <div class="single-release-info">
                                 <div class="single-title">The Man Who Sold The World</div>
                                 <div class="single-release-date">August 11 1994</div>
                             </div>
                             <div class="track-duration">
-                                <img class="single-options" src="Images/open-menu.svg">
+                                <div class="dropdown">
+                                    <img class="single-options " src="Images/open-menu.svg">
+                                    <div class="dropdown-content">
+                                        <div class="flex-rw start">
+
+                                            <img class= "dropdown-icon" src="Images/play.svg">
+                                            <div>Play Now</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/plus.svg">
+                                            <div>Add To Queue</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/star.svg">
+                                            <div>Add To Favorites</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/info.svg">
+                                            <div>Get Info</div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div>6:35</div>
                             </div>
                         </div>
 
                         <div class="latest-release-single flex-rw start mbot3vh">
-                            <img class="latest-release-album-img"
-                                src="Images/latest-releases/release-2-iron-maiden.jpg">
+                            <div class="latest-release-album-img-div">
+                                <img class="latest-release-album-img"
+                                    src="Images/latest-releases/release-2-iron-maiden.jpg">
+                                <!-- <img src="Images/play.svg" class="play-pause-toggle hidden"> -->
+                            </div>
                             <div>
                                 <div class="single-title">Hallowed Be Thy Name</div>
                                 <div class="single-release-date">September 12 1982</div>
                             </div>
                             <div class="track-duration">
-                                <img class="single-options" src="Images/open-menu.svg">
+                                <div class="dropdown">
+                                    <img class="single-options " src="Images/open-menu.svg">
+                                    <div class="dropdown-content">
+                                        <div class="flex-rw start">
+
+                                            <img class= "dropdown-icon" src="Images/play.svg">
+                                            <div>Play Now</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/plus.svg">
+                                            <div>Add To Queue</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/star.svg">
+                                            <div>Add To Favorites</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/info.svg">
+                                            <div>Get Info</div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div>6:35</div>
                             </div>
-
                         </div>
 
                         <div class="latest-release-single flex-rw start mbot3vh">
-                            <img class="latest-release-album-img" src="Images/latest-releases/release-3-metallica.jpg">
+                            <div class="latest-release-album-img-div">
+                                <img class="latest-release-album-img"
+                                    src="Images/latest-releases/release-3-metallica.jpg">
+                                <!-- <img src="Images/play.svg" class="play-pause-toggle hidden"> -->
+                            </div>
                             <div>
                                 <div class="single-title">Turn The Page</div>
                                 <div class="single-release-date">October 13 1998</div>
@@ -127,20 +186,71 @@
 
                             </div>
                             <div class="track-duration">
-                                <img class="single-options" src="Images/open-menu.svg">
+                                <div class="dropdown">
+                                    <img class="single-options " src="Images/open-menu.svg">
+                                    <div class="dropdown-content">
+                                        <div class="flex-rw start">
+
+                                            <img class= "dropdown-icon" src="Images/play.svg">
+                                            <div>Play Now</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/plus.svg">
+                                            <div>Add To Queue</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/star.svg">
+                                            <div>Add To Favorites</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/info.svg">
+                                            <div>Get Info</div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div>6:35</div>
                             </div>
 
                         </div>
 
                         <div class="latest-release-single flex-rw start mbot3vh">
-                            <img class="latest-release-album-img" src="Images/latest-releases/release-4-ac-dc.jpg">
+                            <div class="latest-release-album-img-div">
+                                <img class="latest-release-album-img" src="Images/latest-releases/release-4-ac-dc.jpg">
+                                <!-- <img src="Images/play.svg" class="play-pause-toggle hidden"> -->
+                            </div>
                             <div>
                                 <div class="single-title">Highway To Hell</div>
                                 <div class="single-release-date">1978</div>
                             </div>
                             <div class="track-duration">
-                                <img class="single-options" src="Images/open-menu.svg">
+                                <div class="dropdown">
+                                    <img class="single-options " src="Images/open-menu.svg">
+                                    <div class="dropdown-content">
+                                        <div class="flex-rw start">
+
+                                            <img class= "dropdown-icon" src="Images/play.svg">
+                                            <div>Play Now</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/plus.svg">
+                                            <div>Add To Queue</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/star.svg">
+                                            <div>Add To Favorites</div>
+                                        </div>
+                                        <hr>
+                                        <div class="flex-rw start">
+                                            <img class= "dropdown-icon" src="Images/info.svg">
+                                            <div>Get Info</div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div>6:35</div>
                             </div>
                         </div>
@@ -286,11 +396,11 @@
                 <!-- occasion music ends -->
 
                 <!-- latest english starts -->
-                <section id="latest-english" class="ff fw-600">
+                <section id="latest-english-section" class="ff fw-600">
                     <div class="mbot3vh">Latest English</div>
                     <div class="flex-rw spc-btw">
 
-                        <div class="flex-col start flex-bas-0">
+                        <div class="latest-english flex-col start flex-bas-0">
                             <div>
                                 <img class="latest-release-album-img" src="Images/Latest English/green-day.jpg">
                             </div>
@@ -300,7 +410,7 @@
                             <div class="single-release-date mar0">August 11 1994</div>
                         </div>
 
-                        <div class="flex-col start flex-bas-0">
+                        <div class="latest-english flex-col start flex-bas-0">
                             <div>
                                 <img class="latest-release-album-img"
                                     src="Images/Latest English/kendrick-lamar-damn.jpg">
@@ -311,7 +421,7 @@
                             <div class="single-release-date mar0">August 11 1994</div>
                         </div>
 
-                        <div class="flex-col start flex-bas-0">
+                        <div class="latest-english flex-col start flex-bas-0">
                             <div>
                                 <img class="latest-release-album-img"
                                     src="Images/Latest English/Katy-Perry-Witness-2017-embed.jpg">
@@ -322,7 +432,7 @@
                             <div class="single-release-date mar0">August 11 1994</div>
                         </div>
 
-                        <div class="flex-col start flex-bas-0">
+                        <div class="latest-english flex-col start flex-bas-0">
                             <div>
                                 <img class="latest-release-album-img" src="Images/Latest English/pink-floyd.webp">
                             </div>
@@ -332,7 +442,7 @@
                             <div class="single-release-date mar0">August 11 1994</div>
                         </div>
 
-                        <div class="flex-col start flex-bas-0">
+                        <div class="latest-english flex-col start flex-bas-0">
                             <div>
                                 <img class="latest-release-album-img" src="Images/Latest English/the-miracle-queen.jpg">
                             </div>
@@ -351,11 +461,11 @@
                 <!-- latest english ends -->
 
                 <!-- latest Hindi starts -->
-                <section id="latest-hindi" class="ff fw-600">
+                <section id="latest-hindi-section" class="ff fw-600">
                     <div class="mbot3vh">Latest Hindi</div>
                     <div class="flex-rw spc-btw">
 
-                        <div class="flex-col start flex-bas-0">
+                        <div class="latest-hindi flex-col start flex-bas-0">
                             <div>
                                 <img class="latest-release-album-img" src="Images/Latest Hindi/bang bang.jpg">
                             </div>
@@ -365,7 +475,7 @@
                             <div class="single-release-date mar0">August 11 1994</div>
                         </div>
 
-                        <div class="flex-col start flex-bas-0">
+                        <div class="latest-hindi flex-col start flex-bas-0">
                             <div>
                                 <img class="latest-release-album-img" src="Images/Latest Hindi/bhaag-milkha-bhaag.jpg">
                             </div>
@@ -375,7 +485,7 @@
                             <div class="single-release-date mar0">August 11 1994</div>
                         </div>
 
-                        <div class="flex-col start flex-bas-0">
+                        <div class="latest-hindi flex-col start flex-bas-0">
                             <div>
                                 <img class="latest-release-album-img" src="Images/Latest Hindi/dilwale.jpg">
                             </div>
@@ -385,7 +495,7 @@
                             <div class="single-release-date mar0">August 11 1994</div>
                         </div>
 
-                        <div class="flex-col start flex-bas-0">
+                        <div class="latest-hindi flex-col start flex-bas-0">
                             <div>
                                 <img class="latest-release-album-img" src="Images/Latest Hindi/rang-de-basanti.jpg">
                             </div>
@@ -395,7 +505,7 @@
                             <div class="single-release-date mar0">August 11 1994</div>
                         </div>
 
-                        <div class="flex-col start flex-bas-0">
+                        <div class="latest-hindi flex-col start flex-bas-0">
                             <div>
                                 <img class="latest-release-album-img" src="Images/Latest Hindi/satyameva-jayate.jpg">
                             </div>
@@ -408,7 +518,7 @@
                     </div>
                 </section>
 
-                
+
 
                 <!-- latest Hindi ends -->
             </div>
@@ -422,7 +532,15 @@
                             <div class="queue-title">Queue</div>
                             <div>
                                 <div class="queue-option-title inlBlck">Queue</div>
-                                <img class="options-icon mleft3vw" src="Images/download.svg">
+                                <div class="dropdown inlBlck">
+                                    <img class="options-icon mleft3vw" src="Images/download.svg">
+                                    <div class="dropdown-content queue-drop-font">
+                                        <div>Playlists</div>
+                                        <hr>
+                                        <div>Favorite Songs</div>
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>
 
@@ -531,8 +649,63 @@
             </div>
             <!-- col 2 ends -->
         </div>
+        <!-- Music Player -->
+        <div class="music-player player-hidden">
+            <div class="flex-rw spc-btw music-player-container ff fw-600">
+                <div class="flex-rw start">
+                    <img class="current-song-image" src="Images/Latest English/release-3-metallica.jpg">
+                    <div class="current-track-info flex-col start">
+                        <div class="single-title">
+                            Turn The Page
+                        </div>
+                        <div class="current-song-singer-name">
+                            Metallica
+                        </div>
+                    </div>
+                    <img class="current-song-like-icon" src="Images/heart.svg">
+                    <img class="current-song-block-icon" src="Images/block.svg">
+                </div>
 
-       
+
+
+
+                <div class="music-player-controls flex-col ">
+                    <div class="music-player-buttons flex-rw center">
+                        <img class="controls-icon" src="Images/random.svg">
+                        <img class="controls-icon" src="Images/previous-music.svg">
+                        <img class="play-pause-icon" src="Images/pause.svg">
+                        <img class="controls-icon" src="Images/next-music.svg">
+                        <img class="controls-icon" src="Images/repeat.svg">
+                        <!-- <img> previous -->
+                        <!-- <img> pause/play -->
+                        <!-- <img> next -->
+                        <!-- <img> shuffle -->
+                    </div>
+                    <div class="music-bar flex-rw center">
+                        <div class="bar-time">
+                            1:39
+                        </div>
+                        <div class="slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        </div>
+                        <div class="bar-time">
+                            4:44
+                        </div>
+                    </div>
+                </div>
+
+                <div class="music-player-volume flex-rw start">
+                    <img class="controls-icon volume-icon" src="Images/sound.svg">
+                    <div class="volume-slide-container">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- Music Player ends -->
+
 
 
 
@@ -558,6 +731,7 @@
 
     </main>
     <script src="js/carousel.js"></script>
+    <script src="js/musicControls.js"></script>
 </body>
 
 </html>
